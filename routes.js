@@ -7,6 +7,8 @@ const router =new express.Router()
 //3)set up path for each request from view
 //complint request
 router.post('/complaint',GrievanceController.complaintController)
+//get allComplaints
+router.get('/allcomplaints',GrievanceController.getAllComplaintController)
 
 //4)export the router
 module.exports=router

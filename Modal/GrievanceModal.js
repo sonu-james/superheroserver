@@ -14,6 +14,10 @@ const complaintSchema= new mongoose.Schema({
         type:String,
         required:true
     },
+    timeStamp:{
+        type:String,
+        required:true
+    },
     issue:{
         type:String,
         required:true
