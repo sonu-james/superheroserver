@@ -21,7 +21,7 @@ const complaintSchema= new mongoose.Schema({
     issue:{
         type:String,
         required:true
-    }
+    },
 })
 const complaints=mongoose.model("complaints",complaintSchema)
 module.exports=complaints
